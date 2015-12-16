@@ -1,4 +1,4 @@
-# nodeschool/email
+# nodeschool/email [![Build Status](https://travis-ci.org/nodeschool/email.svg)](https://travis-ci.org/nodeschool/email)
 ### (forked from [nodejs/email](https://github.com/nodejs/email))
 
 **MX server management for nodeschool.io**
