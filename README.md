@@ -7,8 +7,6 @@
 
 The [nodeschool.io](./nodeschool.io) directory contains an [aliases.json](./nodeschool.io/aliases.json) file that provides email mappings for the nodeschool.io domain. It maps `"from"` usernames @nodeschool.io to `"to"` email addresses.
 
-A `MAILGUN_API_KEY` environment variable should be set or a _credentials.json_ file needs to exist in the same directory containing an `"api-key"` property for the [mailgun](http://www.mailgun.com/) account managing the nodeschool.io MX servers.
-
 ## Updating
 
 ### Automatic
@@ -20,6 +18,8 @@ Give it a few minutes, then send a test email. Wait a few more minutes to receiv
 ### Manual
 
 The [update](./update) directory contains a simple node program that you run and provide a domain (`update/update.js nodeschool.io`) which will read the aliases, fetch the list of mail routes from mailgun and update the routes to make sure they match the required aliases.
+
+A `MAILGUN_API_KEY` environment variable should be set or a _credentials.json_ file needs to exist in the same directory containing an `"api-key"` property for the [mailgun](http://www.mailgun.com/) account managing the nodeschool.io MX servers.
 
 ## License & copyright
 
