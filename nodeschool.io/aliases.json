@@ -9,6 +9,11 @@
 
   { "from": "brooklyn", "to": [
     "brianloveswords@gmail.com"
+  ] },
+  
+  {
+    "from": "wellington", "to": [
+    "michael.williams@enspiral.com"    
   ] }
 
 ]
