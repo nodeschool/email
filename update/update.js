@@ -14,22 +14,27 @@ if (process.argv.length < 3) {
 
 const domain    = process.argv[2].replace(/\/$/, '')
     , dir       = path.join(__dirname, '..', domain)
-    , credsFile = path.join(dir, 'credentials.json')
+
 
 if (!fs.statSync(dir).isDirectory()) {
   console.error(`Usage: update <domain> ("domain" must be a directory above ${__dirname}`)
   return process.exit(1)
 }
 
-if (!fs.existsSync(credsFile)) {
+const credsFile = path.join(dir, 'credentials.json')
+
+var creds;
+if (process.env['MAILGUN_API_KEY']) {
+  creds = {'api-key': process.env['MAILGUN_API_KEY']}
+} else if (fs.existsSync(credsFile)) {
+  creds = require(credsFile)
+
+  if (typeof creds['api-key'] != 'string') {
+    console.error(`Error: ${credsFile} does not have an "api-key" property`)
+    return process.exit(1)
+  }
+} else {
   console.error(`Error: ${dir} does not have a credentials.json file`)
-  return process.exit(1)
-}
-
-const creds = require(credsFile)
-
-if (typeof creds['api-key'] != 'string') {
-  console.error(`Error: ${credsFile} does not have an "api-key" property`)
   return process.exit(1)
 }
 
