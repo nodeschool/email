@@ -7,7 +7,7 @@
 
 The [nodeschool.io](./nodeschool.io) directory contains an [aliases.json](./nodeschool.io/aliases.json) file that provides email mappings for the nodeschool.io domain. It maps `"from"` usernames @nodeschool.io to `"to"` email addresses.
 
-A _credentials.json_ file needs to exist in the same directory containing an `"api-key"` property for the [mailgun](http://www.mailgun.com/) account managing the nodeschool.io MX servers.
+A `MAILGUN_API_KEY` environment variable should be set or a _credentials.json_ file needs to exist in the same directory containing an `"api-key"` property for the [mailgun](http://www.mailgun.com/) account managing the nodeschool.io MX servers.
 
 ## Updating
 
