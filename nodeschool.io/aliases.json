@@ -1,5 +1,14 @@
 [
   { "from": "admin", "to": [
     "brianloveswords@gmail.com"
+  ] },
+
+  { "from": "nyc", "to": [
+    "brianloveswords@gmail.com"
+  ] },
+
+  { "from": "brooklyn", "to": [
+    "brianloveswords@gmail.com"
   ] }
+
 ]
