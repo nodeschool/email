@@ -13,7 +13,7 @@ A `MAILGUN_API_KEY` environment variable should be set or a _credentials.json_ f
 
 ### Automatic
 
-**Merges to `master` should be automatically deployed**. Give it a few minutes and send a test email. Wait a few more minutes to receive it. If it doesn't come through, ping @brianloveswords on the PR that merged the address to confirm everything is set up correctly.
+**Merges to `master` should be automatically deployed**. Give it a few minutes and send a test email. Wait a few more minutes to receive it. If it doesn't come through, ping **@brianloveswords** on the PR that merged the new address to confirm everything is set up correctly.
 
 ### Manual
 
