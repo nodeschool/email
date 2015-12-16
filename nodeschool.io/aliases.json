@@ -11,9 +11,12 @@
     "brianloveswords@gmail.com"
   ] },
   
-  {
-    "from": "wellington", "to": [
+  { "from": "wellington", "to": [
     "michael.williams@enspiral.com"    
+  ] },
+  
+  { "from": "london", "to": [
+    "ian@nexttick.io"    
   ] }
 
 ]
