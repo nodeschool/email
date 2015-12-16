@@ -17,6 +17,10 @@
   
   { "from": "london", "to": [
     "ian@nexttick.io"    
-  ] }
+  ] },
+  
+  { "from": "osaka", "to": [
+    "martin.heidegger@gmail.com"
+  ] },
 
 ]
