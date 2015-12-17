@@ -10,17 +10,17 @@
   { "from": "brooklyn", "to": [
     "brianloveswords@gmail.com"
   ] },
-  
+
   { "from": "wellington", "to": [
-    "michael.williams@enspiral.com"    
+    "michael.williams@enspiral.com"
   ] },
-  
+
   { "from": "london", "to": [
-    "ian@nexttick.io"    
+    "ian@nexttick.io"
   ] },
-  
+
   { "from": "osaka", "to": [
     "martin.heidegger@gmail.com"
-  ] },
+  ] }
 
 ]
