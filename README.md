@@ -7,6 +7,8 @@
 
 The [nodeschool.io](./nodeschool.io) directory contains an [aliases.json](./nodeschool.io/aliases.json) file that provides email mappings for the nodeschool.io domain. It maps `"from"` usernames @nodeschool.io to `"to"` email addresses.
 
+Make sure to run `npm test` before committing.
+
 ## Updating
 
 ### Automatic
