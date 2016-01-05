@@ -25,6 +25,9 @@
 
   { "from": "campinas", "to": [
     "contato@fmoliveira.com.br"
+  ] },
+  
+  { "from": "vancouver", "to": [
+    "luke+nodeschool@vivier.ca"
   ] }
-
 ]
