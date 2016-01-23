@@ -29,5 +29,9 @@
   
   { "from": "vancouver", "to": [
     "luke+nodeschool@vivier.ca"
+  ] },
+
+  { "from": "stgo", "to": [
+    "felipe.torressepulveda@gmail.com"
   ] }
 ]
