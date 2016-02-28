@@ -24,9 +24,11 @@
   ] },
 
   { "from": "campinas", "to": [
-    "contato@fmoliveira.com.br"
+    "contato@fmoliveira.com.br",
+    "hi@felipemattos.io",
+    "me@victorperin.ninja"
   ] },
-  
+
   { "from": "vancouver", "to": [
     "luke+nodeschool@vivier.ca"
   ] },
