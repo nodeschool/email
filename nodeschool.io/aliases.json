@@ -36,5 +36,10 @@
 
   { "from": "stgo", "to": [
     "felipe.torressepulveda@gmail.com"
+  ] },
+  
+  { "from": "spb", "to": [
+    "marinintim@gmail.com",
+    "glukki.spb.ru@gmail.com"
   ] }
 ]
