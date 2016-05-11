@@ -45,5 +45,9 @@
 
   { "from": "kikinda", "to": [
     "marko_kazic@live.com"
-  ] }
+  ] },
+  
+  { "from": "western-mass", "to": [
+    "sequoia.mcdowell+nodeschool-western-mass@gmail.com"
+  ] },
 ]
