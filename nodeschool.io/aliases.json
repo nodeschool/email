@@ -53,5 +53,9 @@
 
   { "from": "amsterdam", "to": [
     "jpwesselink+nodeschool-amsterdam@gmail.com"
+  ] },
+  
+   { "from": "berlin", "to": [
+    "derfinn+nodeschool@gmail.com"
   ] }
 ]
