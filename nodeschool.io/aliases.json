@@ -57,5 +57,10 @@
   
    { "from": "berlin", "to": [
     "derfinn+nodeschool@gmail.com"
+  ] },
+
+  { "from": "fort-worth", "to": [
+    "robbie.d.hickey@gmail.com",
+    "frankbenevento123@gmail.com"
   ] }
 ]
