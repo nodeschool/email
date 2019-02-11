@@ -31,7 +31,8 @@
   ] },
 
   { "from": "vancouver", "to": [
-    "admin@stephenbelanger.com"
+    "admin@stephenbelanger.com",
+    "nodeschool@gavinmogan.com"
   ] },
 
   { "from": "stgo", "to": [
